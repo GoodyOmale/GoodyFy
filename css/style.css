@@ -239,7 +239,7 @@ p {
     flex-grow: 1;
     padding: 1.5rem 1rem;
 }
-.input-group .btn {
+.input-group button {
     margin: 4px;
 }
 @media screen and (min-width: 1024px) {
