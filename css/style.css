@@ -52,6 +52,7 @@ p {
         font-size: 2.4rem;
     }
 }
+
 /* Links */
 a {
     text-decoration: none;
@@ -75,6 +76,7 @@ a {
         font-size: 1.5rem;
     }
 }
+
 /* Badges */
 
 .badge {
@@ -104,6 +106,7 @@ a {
         font-size: 1.2rem;
     }
 }
+
 /* Lists */
 .list {
     list-style: none;
@@ -127,6 +130,7 @@ a {
         padding-left: 0;
     }
 }
+
 /* Icons */
 .icon {
     width: 40px;
@@ -144,6 +148,7 @@ a {
     justify-content: center;
     width: 64px;
 }
+
 /* Buttons */
 button {
     background-color: var(--color-accent);
@@ -219,6 +224,7 @@ p {
         width: 22.6rem;
     }
 }
+
 /* Inputs */
 .input {
     border-radius: var(--border-radius);
@@ -250,6 +256,7 @@ p {
         font-size: 1.5rem;
     }
 }
+
 /* Cards */
 .card {
     border-radius: 7px;
@@ -271,6 +278,7 @@ p {
 .card--secondary .badge--secondary {
     background: #02cdf1;
 }
+
 /* Plan */
 .plan__name {
     color: white;
@@ -322,6 +330,7 @@ p {
         font-size: 1.7rem;
     }
 }
+
 /* Media */
 .media {
     display: flex;
@@ -398,5 +407,47 @@ p {
     }
     .quite__company {
         font-size: 1.6rem;
+    }
+}
+/* Grids */
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Testimonials */
+.testimonial {
+    padding: 3.5rem;
+}
+.testimonial__image {
+    width: 100%;
+}
+.testimonial__picture {
+    position: relative;
+}
+.testimonial__picture .icon-container {
+    position: absolute;
+    background-color: var(--color-accent);
+    right: -32px;
+    top: 2rem;
+}
+.testimonial__picture .icon {
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial .quote,
+    .testimonial .quote__author {
+        font-size: 2.4rem;
+    }
+    .testimonial .quote {
+        margin-left: 6rem;
     }
 }
