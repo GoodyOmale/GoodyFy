@@ -451,3 +451,40 @@ p {
         margin-left: 6rem;
     }
 }
+
+/* Callouts */
+.callout {
+    padding: 4rem;
+    border-radius: 5px;
+}
+.callout--primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+.callout__heading {
+    color: white;
+    margin-top: 0;
+    font-size: 3rem;
+}
+.callout__content {
+    text-align: center;
+}
+.callout .button--get2 {
+    justify-self: center;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .callout .grid--1x2 {
+        grid-template-columns: 1fr auto;
+    }
+
+    .callout__content {
+        text-align: left;
+    }
+    .callout .button--get2 {
+        justify-self: left;
+        align-self: center;
+        margin: 0 2rem;
+    }
+}
