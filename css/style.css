@@ -99,6 +99,9 @@ a {
     background: var(--color-secondary);
     color: white;
 }
+.badge--primary-dark {
+    background: #126de4;
+}
 .badge--small {
     font-size: 1.6rem;
     padding: 0.5rem 1.5rem;
@@ -291,6 +294,22 @@ p {
 }
 
 /* Plan */
+
+.plan {
+    display: flex;
+
+    max-width: 460px;
+    margin: 3rem 2rem;
+    transition: scale 0.15s;
+}
+
+.plan--popular {
+    transform: scale(1.1);
+}
+.plan:hover {
+    scale: 1.05;
+}
+
 .plan__name {
     color: white;
     margin: 0;
@@ -647,5 +666,23 @@ p {
 @media screen and (min-width: 768px) {
     .block-domain__prices {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+/* Plan Block */
+.plan--popular .button--buy {
+    background-color: var(--color-headings);
+    color: white;
+}
+.block__plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .block__plans {
+        flex-direction: row;
+        justify-content: center;
     }
 }
