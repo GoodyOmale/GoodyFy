@@ -580,11 +580,11 @@ p {
     color: white;
 }
 .block--skewed-left {
-    padding-bottom: calc(var(--padding-vertical) +4);
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 90%);
 }
 .block--skewed-right {
-    padding-bottom: calc(var(--padding-vertical) +4);
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
     clip-path: polygon(100% 0%, 0% 0%, 0% 90%, 100% 100%);
 }
 
