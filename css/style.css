@@ -686,6 +686,7 @@ p {
 .hero__content {
     overflow: hidden;
     text-overflow: ellipsis;
+    padding: 1.5rem;
 }
 
 .hero__tagline {
