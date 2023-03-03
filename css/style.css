@@ -734,7 +734,6 @@ p {
 }
 .block__plans {
     display: grid;
-    padding-left: 1.1rem;
 }
 
 @media screen and (min-width: 1024px) {
