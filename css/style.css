@@ -584,6 +584,7 @@ p {
     clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 90%);
 }
 .block--skewed-right {
+    padding-bottom: calc(var(--padding-vertical) +4);
     clip-path: polygon(100% 0%, 0% 0%, 0% 90%, 100% 100%);
 }
 
@@ -670,9 +671,9 @@ p {
 .hero__image {
     width: 100%;
 }
-.hero__content {
-    margin-left: 2rem;
-}
+/* .hero__content {
+
+} */
 
 @media screen and (min-width: 768px) {
     .hero {
@@ -682,6 +683,7 @@ p {
     .hero__content {
         text-align: left;
         align-self: center;
+        margin-left: 2rem;
     }
 }
 /* Domain Block */
