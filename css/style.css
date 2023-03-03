@@ -188,7 +188,7 @@ p {
 }
 .button--primary {
     height: 6.8rem;
-    width: 40rem;
+    width: 30rem;
 }
 .button--buy {
     background-color: white;
@@ -197,7 +197,7 @@ p {
     color: var(--color-headings);
     font-weight: 600;
     height: 6rem;
-    width: 40rem;
+    width: 25rem;
 }
 .button--tertiary {
     background-color: var(--color-headings);
@@ -221,7 +221,7 @@ p {
 .button--get2 {
     background-color: var(--color-secondary);
     height: 7.5rem;
-    width: 31.7rem;
+    width: 25rem;
 }
 @media screen and (min-width: 1024px) {
     button {
@@ -284,6 +284,10 @@ p {
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
 }
+.card button {
+    margin: auto;
+}
+
 .card__header,
 .card__body {
     padding: 2rem 3rem;
@@ -674,9 +678,10 @@ p {
 }
 
 /* Hero */
-/* .hero {
-    margin: auto;
-} */
+.hero__content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 .hero__tagline {
     font-size: 2rem;
