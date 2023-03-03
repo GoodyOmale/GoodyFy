@@ -843,7 +843,7 @@ p {
     margin: 0;
     line-height: 2;
 }
-.collapsible .collapsible__content {
+.footer .collapsible__content {
     border-bottom: 0.5px solid gray;
 }
 .collapsible .collapsible__header {
@@ -870,10 +870,13 @@ p {
     .collapsible__content .list {
         line-height: 0.5;
     }
-
+    .footer .collapsible {
+        border-bottom: 0;
+    }
     .footer .collapsible__content {
         opacity: 1;
         max-height: 100%;
+        border-bottom: 0;
     }
     .collapsible__icon {
         display: none;
